@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Tik Tak Toe</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>   
+<body>
+    <button name="Two Player" onclick="selectType(this)" >Two Player</button>
+    <button name="One Player" onclick="selectType(this)" >VS BOT</button>
+    <h1 class="title">TIK TAK TOE</h1>
+    <table class="table">
+        <tbody class="tbody">
+            <tr>
+                <td><button class="btn" id="1" onclick="clic(this)"></button></td>
+                <td><button class="btn" id="2" onclick="clic(this)"> </button></td>
+                <td><button class="btn" id="3" onclick="clic(this)"> </button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" id="4" onclick="clic(this)"> </button></td>
+                <td><button class="btn" id="5" onclick="clic(this)"> </button></td>
+                <td><button class="btn" id="6" onclick="clic(this)"> </button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" id="7" onclick="clic(this)"></button></td>
+                <td><button class="btn" id="8" onclick="clic(this)"></button></td>
+                <td><button class="btn" id="9" onclick="clic(this)"></button></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="h2" class="msg"></h2> <button id ="reset" onclick="reset(this)" style="visibility: hidden; margin-left: 46%;">Play Again</button>
+    <script src="./index.js"></script>
+</body>
+</html>

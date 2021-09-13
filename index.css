@@ -1,0 +1,28 @@
+
+.table{
+    display: flex;
+    justify-content: center;
+    
+}
+.table button{
+    width: 100px;
+    height:100px;
+    font-size:60px
+}
+
+.selected_x{
+    color: tomato;
+    background-color: gray;
+}
+.selected_y{
+    color: green;
+    background-color: gray;
+}
+
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+.msg{
+    text-align: center;
+}
