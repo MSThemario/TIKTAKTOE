@@ -91,7 +91,7 @@ function clic(btn){
 
     document.getElementById(btn.id).disabled=true
     // disbale button after click
-    if (count==9 & win==false)
+    if (count==9 && wins==false)
       {document.getElementById("h2").innerHTML="Game Draw!! Play Again"
       fina()
     }    
